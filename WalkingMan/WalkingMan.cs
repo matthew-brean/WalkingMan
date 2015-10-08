@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+Created by: Matthew Brean
+Created on: 2015-10-08
+Created for: ICS3U
+Daily Assignment: Unit #3-07
+This program moves an image and changes the image to make it look like a man is walking.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,7 +35,7 @@ namespace WalkingMan
                 if (loopCounter == 0)
                 {
                     this.picMan.Image = WalkingMan.Properties.Resources.walk2;
-                    this.picMan.Left = this.picMan.Left - 10;
+                    this.picMan.Left = this.picMan.Left - 5;
                 }
                 else if (loopCounter == 1)
                 {
