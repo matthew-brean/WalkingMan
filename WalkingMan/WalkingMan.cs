@@ -31,7 +31,13 @@ namespace WalkingMan
             int loopCounter = 0;
 
             do
-            {
+            { 
+                if (picMan.Location.X<0)
+                {
+                    this.picMan.Location = new Point(120,27);
+                }
+
+            
                 if (loopCounter == 0)
                 {
                     this.picMan.Image = WalkingMan.Properties.Resources.walk2;
